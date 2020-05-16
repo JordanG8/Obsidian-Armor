@@ -1,4 +1,4 @@
-package me.jordang8.obsidian-armor;
+package me.jordang8.obsidianarmor;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -14,7 +14,7 @@ import me.mrCookieSlime.Slimefun.bstats.bukkit.Metrics;
 import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
 import me.mrCookieSlime.Slimefun.cscorelib2.item.CustomItem;
 
-public class ObsidianArmor extends JavaPlugin implements SlimefunAddon {
+public class Main extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public void onEnable() {
@@ -68,7 +68,7 @@ public class ObsidianArmor extends JavaPlugin implements SlimefunAddon {
     }
 
     @Override
-    public class main extends JavaPlugin getJavaPlugin() {
+    public JavaPlugin getJavaPlugin() {
         return this;
     }
 
