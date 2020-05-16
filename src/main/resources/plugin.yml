@@ -5,7 +5,7 @@ name: Obsidian-Armor
 author: JordanG8
 
 ## CHANGE this to a meaninful but short description of your plugin.
-description: A Slimefun4 addon that adds obsidian-armor
+description: A Slimefun4 addon that adds obsidian armor
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
 main: me.jordang8.obsidian-armor.Obsidian-Armor
