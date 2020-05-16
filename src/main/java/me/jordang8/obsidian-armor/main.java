@@ -68,7 +68,7 @@ public class ObsidianArmor extends JavaPlugin implements SlimefunAddon {
     }
 
     @Override
-    public JavaPlugin getJavaPlugin() {
+    public class main extends JavaPlugin getJavaPlugin() {
         return this;
     }
 
