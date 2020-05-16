@@ -8,7 +8,7 @@ author: JordanG8
 description: A Slimefun4 addon that adds obsidian-armor
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
-main: me.JordanG8.obsidian_armor.Obsidian-Armor
+main: me.jordang8.obsidian-armor.Obsidian-Armor
 
 ## You can change this to link to your website or repository. You can also remove this line if you want to.
 website: https://github.com/JordanG8/Obsidian-Armor
