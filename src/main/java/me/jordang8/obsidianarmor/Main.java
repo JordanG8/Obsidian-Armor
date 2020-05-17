@@ -41,7 +41,7 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         Category category = new Category(categoryId, categoryItem);
 
         // Create a new Slimefun ItemStack
-        // This class has many constructors, it is very important that you give each item a unique id.
+        // This class has many constructors, it is important that you give each item a unique id.
         SlimefunItemStack slimefunItem = new SlimefunItemStack("obsidian chestplate", Material.DIAMOND_CHESTPLATE, "&8Obsidian chestplate", "&c+20% Coolness");
 
         // The Recipe is an ItemStack Array with a length of 9.
