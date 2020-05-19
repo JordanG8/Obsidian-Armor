@@ -39,7 +39,7 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         SlimefunItem item = new SlimefunItem(category, obs_alloy, RecipeType.ENHANCED_CRAFTING_TABLE, recipe);
         item.register(this);
         
-        SlimefunItemStack obsHelmet = new SlimefunItemStack("OBSIDIAN_HELMET", Material.DIAMOND_HELMET, "&8Obsidian helmet", "&c Grants you full fire and lava protection" );
+        SlimefunItemStack obsHelmet = new SlimefunItemStack("OBSIDIAN_HELMET", Material.DIAMOND_HELMET, "&8Obsidian helmet", " Grants you almost full fire and lava protection,&c if you wanna go to the nether take this" );
         ItemStack[] recipeForHelmet = {			obs_alloy, obs_alloy, obs_alloy,
         											obs_alloy, 	null, 	  obs_alloy,
         											null, 		null, 		null };
@@ -47,13 +47,13 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         final ItemStack isHelmet = obsHelmet;
         
         isHelmet.addUnsafeEnchantment(Enchantment.DURABILITY, 3);
-        isHelmet.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
-        isHelmet.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 100);
+        isHelmet.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 10);
+        isHelmet.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 10);
         isHelmet.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
        
         obs_helmet.register(this);
 
-        SlimefunItemStack obsChestplate = new SlimefunItemStack("OBSIDIAN_CHESTPLATE", Material.DIAMOND_CHESTPLATE, "&8Obsidian chestplate", "&c Grants you full fire and lava protection" );
+        SlimefunItemStack obsChestplate = new SlimefunItemStack("OBSIDIAN_CHESTPLATE", Material.DIAMOND_CHESTPLATE, "&8Obsidian chestplate", " Grants you almost full fire and lava protection,&c if you wanna go to the nether take this" );
         ItemStack[] recipeForChestplate = {		obs_alloy, 		null, obs_alloy,
         										obs_alloy, obs_alloy, obs_alloy,
         										obs_alloy, obs_alloy, obs_alloy };
@@ -61,15 +61,15 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         final ItemStack is = obsChestplate;
         
         is.addEnchantment(Enchantment.DURABILITY, 3);
-        is.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
-        is.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 100);
+        is.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 10);
+        is.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 10);
         is.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
        
         obs_chestplate.register(this);
         
         
         
-        SlimefunItemStack obsLeggings = new SlimefunItemStack("OBSIDIAN_LEGGINGS", Material.DIAMOND_LEGGINGS, "&8Obsidian leggings", "&c Grants you full fire and lava protection" );
+        SlimefunItemStack obsLeggings = new SlimefunItemStack("OBSIDIAN_LEGGINGS", Material.DIAMOND_LEGGINGS, "&8Obsidian leggings", " Grants you almost full fire and lava protection,&c if you wanna go to the nether take this" );
         ItemStack[] recipeForLeggings = {		obs_alloy, obs_alloy, obs_alloy,
         										obs_alloy, 		null, obs_alloy,
         										obs_alloy, 		null, obs_alloy };
@@ -77,14 +77,14 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         final ItemStack isLeggings = obsLeggings;
         
         isLeggings.addEnchantment(Enchantment.DURABILITY, 3);
-        isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
-        isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 100);
+        isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 10);
+        isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 10);
         isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
        
         obs_leggings.register(this);
         
         
-        SlimefunItemStack obsBoots = new SlimefunItemStack("OBSIDIAN_BOOTS", Material.DIAMOND_BOOTS, "&8Obsidian boots", "&c Grants you full fire and lava protection" );
+        SlimefunItemStack obsBoots = new SlimefunItemStack("OBSIDIAN_BOOTS", Material.DIAMOND_BOOTS, "&8Obsidian boots", " Grants you almost full fire and lava protection,&c if you wanna go to the nether take this" );
         ItemStack[] recipeForBoots = {				null,		null, 	null, 
         										obs_alloy, 		null, obs_alloy,
         										obs_alloy, 		null, obs_alloy };
@@ -92,8 +92,8 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         final ItemStack isBoots = obsBoots;
         
         isBoots.addEnchantment(Enchantment.DURABILITY, 3);
-        isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
-        isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 100);
+        isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 10);
+        isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_EXPLOSIONS, 10);
         isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
        
         obs_boots.register(this);
