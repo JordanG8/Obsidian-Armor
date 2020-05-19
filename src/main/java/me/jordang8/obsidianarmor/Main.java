@@ -74,7 +74,7 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         										obs_alloy, 		null, obs_alloy,
         										obs_alloy, 		null, obs_alloy };
 		SlimefunItem obs_leggings = new SlimefunItem(category, obsLeggings, RecipeType.ENHANCED_CRAFTING_TABLE, recipeForLeggings);
-        final ItemStack isLeggings = obsChestplate;
+        final ItemStack isLeggings = obsLeggings;
         
         isLeggings.addEnchantment(Enchantment.DURABILITY, 3);
         isLeggings.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
@@ -89,7 +89,7 @@ public class Main extends JavaPlugin implements SlimefunAddon {
         										obs_alloy, 		null, obs_alloy,
         										obs_alloy, 		null, obs_alloy };
 		SlimefunItem obs_boots = new SlimefunItem(category, obsBoots, RecipeType.ENHANCED_CRAFTING_TABLE, recipeForBoots);
-        final ItemStack isBoots = obsChestplate;
+        final ItemStack isBoots = obsBoots;
         
         isBoots.addEnchantment(Enchantment.DURABILITY, 3);
         isBoots.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 100);
